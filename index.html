@@ -8,8 +8,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="center">
-        <div class="background">
+    <div class="nav">
+        <h1 class="nav-title">Profile</h1>
+        <ul class="nav-links">
+            <li><a class ="navbar" href="#">Home</a></li>
+            <li><a class="navbar" href="#" class="active">My Profile</a></li>
+            <li><a class="navbar" href="#">Find Connections</a></li>
+            <li><button class="btn">Sign Out</button></li>
+        </ul>
+    </div>    
+    <div class="userprofile">
+        <div class="userbanner">
             <div class="topbanner"></div>
             <img class ="user" src="user-circle.png" alt="user-circle">
             <h1>Jane Doe</h1>
@@ -20,7 +29,7 @@
                 Master of shadows and the Internet
             </h3>
             <img class="map" src="gear.png" alt="gear">
-            <a href="#">edit profile</a>
+            <a id="profile" href="#">edit profile</a>
         </div>
     </div>
 </body>

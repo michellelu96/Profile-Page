@@ -4,16 +4,16 @@
     font-family: sans-serif;
 }
 
-.center{
+.userprofile{
     display: flex; 
-    justify-content:center; 
 }
-.background{
+.userbanner{
     height: 350px;
     width: 600px;
     background-color: white;
     border: 1px solid grey;
     margin-top: 50px;
+    margin-left: 50px;
 }
 
 .topbanner{
@@ -52,6 +52,41 @@ h3{
     margin-left: 20px;
 }
 
-a{
+#profile{
     position: relative;
+}
+
+.nav{
+    background-color: rgb(51, 50, 50);
+    font-family: sans-serif ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title{
+    color: white;
+    margin: 20px;
+}
+
+.nav-links{
+    list-style-type: none;
+    display: flex;
+    margin-right: 10px;
+}
+
+.navbar{
+    color: white;
+    margin:10px;
+    font-family: sans-serif;
+    text-decoration: none;
+    display: flex;
+}
+
+button{
+    color: white;
+    background-color: deepskyblue;
+    font-size: 20px;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
 }
