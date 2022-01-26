@@ -5,7 +5,9 @@
 }
 
 .userprofile{
-    display: flex; 
+    display: inline-block; 
+    justify-content: space-around;
+    align-content: left;
 }
 .userbanner{
     height: 350px;
@@ -13,7 +15,7 @@
     background-color: white;
     border: 1px solid grey;
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .topbanner{
@@ -91,17 +93,14 @@
     box-shadow: 3px 3px black;
 }
 
-.connectionrequests{
-    align-items: flex-end;
-    position: static;
-    display: flex;
-}
 
 .ConReq{
     height: 150px;
     width: 300px;
     background-color: white;
     border: 2px solid grey;
+    margin-top: 50px;
+    margin-left: 100px;
 }
 #conbanner{
     background-color: black;
@@ -109,23 +108,90 @@
     text-align: center;
 }
 #two{
+    height: 5px;
+    width: 5px;
     background-color: grey;
     border-radius: 50%;
 }
 
-#nomorefriends{
+.nomorefriends{
     height: 20px;
     width: 20px;
-    display: inline-block;
+    flex: 1;
 }
 
-#dontaddthem{
-    display: inline-block;
+.dontaddthem{
+    align-items: center;
+    justify-content: center;
+    flex :1;
 }
 
 .peoplepics{
     height: 50px;
     width: 50px;
-    display: inline-block;
+    flex: 1;
+}
+
+
+.somanyfriends{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border: solid grey;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+#five{
+    color: white;
+    background-color: rgb(94, 92, 92);
+}
+#wowmuchfriends{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.side{
+    display: inline-block; 
+    justify-content: flex-end;
+}
+
+.centerit{
     align-items: flex-start;
+}
+.edublock{
+    height: 150px;
+    width: 600px;
+    background-color: white;
+    border: solid grey;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+#edubanner{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+#attendancedate{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.peoplepics2{
+        height: 50px;
+        width: 50px;
+        display: inline-block;
+        align-items: flex-start;
+        display: flex;
+    }
+}
+dontaddthem2{
+    align-items: center;
+    justify-content: center;
+}
 }
