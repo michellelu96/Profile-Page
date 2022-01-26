@@ -6,7 +6,6 @@
 
 .userprofile{
     display: inline-block; 
-    justify-content: space-around;
     align-content: left;
 }
 .userbanner{
@@ -95,7 +94,7 @@
 
 
 .ConReq{
-    height: 150px;
+    height: 160px;
     width: 300px;
     background-color: white;
     border: 2px solid grey;
@@ -117,24 +116,18 @@
 .nomorefriends{
     height: 20px;
     width: 20px;
-    flex: 1;
-}
-
-.dontaddthem{
-    align-items: center;
-    justify-content: center;
-    flex :1;
+    align-content: flex-end;
 }
 
 .peoplepics{
     height: 50px;
     width: 50px;
-    flex: 1;
+    border-radius: 50%;
+    margin-top: 10px;
 }
 
-
 .somanyfriends{
-    height: 300px;
+    height: 295px;
     width: 300px;
     background-color: white;
     border: solid grey;
@@ -145,6 +138,7 @@
 #five{
     color: white;
     background-color: rgb(94, 92, 92);
+    border-radius: 50%;
 }
 #wowmuchfriends{
     background-color: black;
@@ -156,10 +150,11 @@
 .side{
     display: inline-block; 
     justify-content: flex-end;
+    align-content: top;
 }
 
 .centerit{
-    align-items: flex-start;
+    position: relative;
 }
 .edublock{
     height: 150px;
@@ -182,16 +177,18 @@
     margin-bottom: 5px;
 }
 
-.peoplepics2{
-        height: 50px;
-        width: 50px;
-        display: inline-block;
-        align-items: flex-start;
-        display: flex;
-    }
+
+#view-more{
+    width: 300px;
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid grey;
+    text-align: center;
 }
-dontaddthem2{
+
+.noadding{
+    list-style-type: none;
+    display: flex;
     align-items: center;
-    justify-content: center;
-}
+    justify-content: space-evenly;
 }
