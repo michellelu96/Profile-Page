@@ -4,6 +4,12 @@
     font-family: sans-serif;
 }
 
+.everything{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 .userprofile{
     display: inline-block; 
     align-content: left;
@@ -49,6 +55,7 @@
     font-size: 15px;
 }
 #janeinfo{
+
     margin-top: 10px;
     margin-left: 20px;
 }
@@ -79,7 +86,6 @@
 .navbar{
     color: white;
     margin:10px;
-    font-family: sans-serif;
     text-decoration: none;
     display: flex;
 }
@@ -99,13 +105,14 @@
     background-color: white;
     border: 2px solid grey;
     margin-top: 50px;
-    margin-left: 100px;
 }
+
 #conbanner{
     background-color: black;
     color: white;
     text-align: center;
 }
+
 #two{
     height: 5px;
     width: 5px;
@@ -132,7 +139,6 @@
     background-color: white;
     border: solid grey;
     margin-top: 50px;
-    margin-left: 100px;
 }
 
 #five{
@@ -148,14 +154,11 @@
 }
 
 .side{
-    display: inline-block; 
-    justify-content: flex-end;
-    align-content: top;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
 }
 
-.centerit{
-    position: relative;
-}
 .edublock{
     height: 150px;
     width: 600px;
